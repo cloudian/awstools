@@ -1,1 +1,6 @@
 AWS tools
+
+---+++ AWS KMS
+---++++ Schedule Key Deletion of Old Keys
+Check AWS KMS master keys and schedule key deletion of old keys.
+Default settings are to schedule key deletions with waiting period of 7 days for keys created 3 days or more before.
